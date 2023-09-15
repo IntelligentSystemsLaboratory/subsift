@@ -17,7 +17,7 @@ title: SubSift
 email: miquel.perellonieto@bristol.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   SubSift tools for matching academic researchers and text.
-baseurl: "/SubSift/" # the subpath of your site, e.g. /blog
+baseurl: "/subsift/" # the subpath of your site, e.g. /blog
 domain: "intelligentsystemslaboratory.github.io"
 url: "https://intelligentsystemslaboratory.github.io/SubSift/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: perellonieto
