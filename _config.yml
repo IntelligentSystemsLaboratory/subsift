@@ -23,7 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   bag-of-word representation using TF-IDF, and calculating pairwise cosine
   similarities. For researchers, publication titles as listed on their DBLP
   page are converted to BoW.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/SubSift/" # the subpath of your site, e.g. /blog
+domain: "intelligentsystemslaboratory.github.io"
 url: "https://intelligentsystemslaboratory.github.io/SubSift/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: perellonieto
 github_username:  perellonieto
