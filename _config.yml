@@ -1,0 +1,19 @@
+title: SubSift
+author:
+  name: perellonieto
+  email: miquel.perellonieto@bristol.ac.uk
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  SubSift is a collection of tools developed in Bristol for matching academic
+  researchers and text. The first use case was to match submitted papers to
+  potential reviewers, first for conferences (KDD'09, ECMK-PKDD'12) and later
+  for journals (Machine Learning). It works by converting text documents to a
+  bag-of-word representation using TF-IDF, and calculating pairwise cosine
+  similarities. For researchers, publication titles as listed on their DBLP
+  page are converted to BoW.
+
+# Build settings
+
+theme: minima
