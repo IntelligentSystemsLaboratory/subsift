@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   SubSift tools for matching academic researchers and text.
 baseurl: "/subsift/" # the subpath of your site, e.g. /blog
 domain: "intelligentsystemslaboratory.github.io"
-url: "https://intelligentsystemslaboratory.github.io/SubSift/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://intelligentsystemslaboratory.github.io/subsift/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: perellonieto
 github_username:  perellonieto
 
