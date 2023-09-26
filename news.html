@@ -1,0 +1,19 @@
+---
+layout: default
+title: News
+order: 2
+---
+
+<h1>News</h1>
+
+{% assign sorted = site.news | sort: 'date' | reverse %}
+
+{% for new in sorted limit: 10 %}
+  <article>
+    <h2>
+        {{ new.title }}
+    </h2>
+    <time datetime="{{ new.date | date: "%Y-%m-%d" }}">{{ new.date | date_to_long_string }}</time>
+    {{ new.content }}
+  </article>
+{% endfor %}

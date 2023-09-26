@@ -40,3 +40,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+collections:
+  news:
+    output: true
+  members:
+    output: true
+
+toc:
+  - page: news
+  - page: members
+  - page: about

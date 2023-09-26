@@ -1,0 +1,16 @@
+---
+layout: default
+title: Members
+order: 8
+---
+
+<h1>Members</h1>
+
+{% assign sorted = site.members | sort: 'order' %}
+
+{% for member in sorted %}
+  <h2>
+      {{ member.name }} - {{ member.position }}
+  </h2>
+  <p>{{ member.content | markdownify }}</p>
+{% endfor %}
