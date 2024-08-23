@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 9
+nav_order: 9
 ---
 
 SubSift is a collection of tools developed in Bristol for matching academic
